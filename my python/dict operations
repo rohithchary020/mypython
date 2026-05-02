@@ -5,3 +5,15 @@ sum=0
 for i in  a:
     sum=sum+a1[i]
 print(sum)
+
+
+
+# example using dict
+
+name=input("enter the name of emp:")
+sal=int(input("enterthe salary:"))
+desig=input("position of the emp:")
+
+a={'tl':10,'manager':20,'fresher':5,'developer':15}
+tax=sal*(a[desig]/100)
+print(" Total Tax from the salary is :",tax)
